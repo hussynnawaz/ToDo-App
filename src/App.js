@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
-import TodoForm from './components/TodoForm';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
-<TodoForm></TodoForm>
-  )
+    <div className='todo-app'>
+      <TodoList />
+    </div>
+  );
 }
 
-export default App
+export default App;
